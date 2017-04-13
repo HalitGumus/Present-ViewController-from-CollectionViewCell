@@ -2,6 +2,7 @@
 Swift 3, CollectionView
 
 
+
 // myCollectionViewCell
 
 import UIKit
@@ -29,7 +30,7 @@ import UIKit
 // 4
 class ViewController: UIViewController, myProtocol, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     
-    @IBOutlet weak var mainCollectionView: UICollectionView!
+   @IBOutlet weak var mainCollectionView: UICollectionView!
     
     
     // 5
