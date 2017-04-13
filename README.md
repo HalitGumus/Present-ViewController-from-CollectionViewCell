@@ -13,6 +13,7 @@ protocol myProtocol {
 }
 
 class myCollectionViewCell: BaseCell, UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
+
  // 2
    var delegate: myProtocol!
 
