@@ -34,14 +34,14 @@ class ViewController: UIViewController, myProtocol, UICollectionViewDelegate, UI
     
 // 5
     func loadNewScreen ()
-    {
+   {
         let board = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "newScreen") as! newController
         present(board, animated: true, completion: nil)
         
-    }
+   }
 // 6
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
        cell.delegate = self
-    }
+   }
     
- }
+}
